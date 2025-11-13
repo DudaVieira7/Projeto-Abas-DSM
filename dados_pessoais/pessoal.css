@@ -1,0 +1,103 @@
+/* --- Reset simples --- */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+/* --- Estilo global --- */
+body {
+  font-family: Arial, sans-serif;
+  background: #431778;
+  padding: 20px;
+}
+
+/* --- Container central --- */
+.container {
+  max-width: 90%;
+  margin: auto;
+  background: #fff;
+  color: #928bb7;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+h1{
+  color: #B1AADA;
+}
+
+
+h2 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+/* --- Grid de 12 colunas --- */
+form {
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);
+  gap: 15px;
+}
+
+/* Inputs e selects */
+label {
+  display: block;
+  margin-bottom: 5px;
+  font-weight: bold;
+}
+/* Estiliza apenas o asterisco para ser vermelho */
+.required-star {
+    color: #ff0000; 
+    font-weight: bold; 
+    margin-left: 3px; 
+}
+
+input, select {
+  width: 100%;
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+/* Colunas (baseadas em 12 partes) */
+.col-12 { grid-column: span 12; }
+.col-8  { grid-column: span 8; }
+.col-6  { grid-column: span 6; }
+.col-4  { grid-column: span 4; }
+.col-2  { grid-column: span 2; }
+
+/* Responsividade */
+@media (max-width: 768px) {
+  .col-8, .col-6, .col-4, .col-2 {
+    grid-column: span 12;
+  }
+}
+
+/* Botões */
+.buttons {
+  grid-column: span 12;
+  text-align: right;
+}
+
+button {
+  padding: 10px 15px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.btn-secondary {
+  background: #aea7b4;
+  margin-right: 10px;
+}
+
+.btn-primary {
+  background: #5645ab;
+  color: white;
+}
+
+
+.btn-primary:hover{
+  background: #9427d8;
+}
+

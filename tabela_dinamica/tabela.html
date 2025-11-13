@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabela Dinâmica GlobalSpeaker</title>
+    <link rel="stylesheet" href="./tabela.css">
+</head>
+<body>
+    <div class="foto">
+    <div class="logo">
+        
+    <img src="GlobalSpeaker.png" class="img" alt="GlobalSpeaker">
+    </div>
+     <h1 id="titulo">conecte-se com o mundo descubra novas possibilidades com a GlobalSpeaker</h1>
+    </div>
+
+
+
+    <h1 style="color: #ffeaa5;font-family: Georgia, 'Times New Roman', Times, serif;">Organize seus estudos com a <u><span style="color: #39fffb;">GlobalSpeaker</span></u></h1><br><br>
+    <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Aqui te damos soluções para sua jornada língistica e tornamos seus sonhos realidade, como funciona?</p> você digita a quantidade de  dias estudados em uma semana de 1 à 7 dias durante 4 semanas(1 mês), isso é importante para avaliar seu  desempenho, seu progresso e dedicação.<br> durante esse período você escolhe um ou mais idiomas de sua preferência e a media de tempo dedicado para cada um durante a semana...focado em Conversação, Gramática, Leitura e Vocabulário, Que são os 4 pilares que te toraram um  GlobalSpeaker.<br><br>
+
+
+
+    <h1>Tabela Mensal de aprendizado de Idiomas</h1>
+
+
+
+    <div class="container">
+        <table id="tabelaAprendizado">
+            <thead>
+                <tr>
+                    <th>Semana</th>
+                    <th>Dias estudados</th>
+                    <th>Idioma</th>
+                    <th>Conversação (min/dia)</th>
+                    <th>Gramática (min/dia)</th>
+                    <th>Leitura (min/dia)</th>
+                    <th>Vocabulário (min/dia)</th>
+                    <th>Total de Estudos Semanal (min)</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td><strong>Semana 1</strong></td>
+                    <td><input type="number" min="0" max="7"></td>
+                    <td><input type="text" placeholder="Inglês"></td>
+                    <td><input type="number" min="0" max="1440"></td>
+                    <td><input type="number" min="0" max="1440"></td>
+                    <td><input type="number" min="0" max="1440"></td>
+                    <td><input type="number" min="0" max="1440"></td>
+                    <td class="total">0</td> 
+
+                </tr>
+                <tr>
+                    <td><strong>Semana 2</strong></td>
+                    <td><input type="number" min="0" max="7"></td>
+                    <td><input type="text" placeholder="Francês"></td>
+                    <td><input type="number" min="0" max="1440"></td>
+                    <td><input type="number" min="0" max="1440"></td>
+                    <td><input type="number" min="0" max="1440"></td>
+                    <td><input type="number" min="0" max="1440"></td>
+                    <td class="total">0</td>
+                </tr>
+                <tr>
+                    <td><strong>Semana 3</strong></td>
+                    <td><input type="number" min="0" max="7"></td>
+                    <td><input type="text" placeholder="Coreano"></td>
+                    <td><input type="number" min="0" max="1440"></td>
+                    <td><input type="number" min="0" max="1440"></td>
+                    <td><input type="number" min="0" max="1440"></td>
+                    <td><input type="number" min="0" max="1440"></td>
+                    <td class="total">0</td>
+                </tr>
+                <tr>
+                    <td><strong> Semana 4</strong></td>
+                    <td><input type="number" min="0" max="7"></td>
+                    <td><input type="text" placeholder="Italiano"></td>
+                    <td><input type="number" min="0" max="1440"></td>
+                    <td><input type="number" min="0" max="1440"></td>
+                    <td><input type="number" min="0" max="1440"></td>
+                    <td><input type="number" min="0" max="1440"></td>
+                    <td class="total">0</td>
+                </tr>
+            </tbody>
+    
+        </table>
+    
+    </div>
+    <button id="calcular"> Calcular Totais</button>
+        <h2 style="text-align: center; border-top:60px;" id="resultadoGeral"> Tempo mensal min: 0 min</h2>
+       
+
+
+    <script src="./tabela.js"></script>
+</body>
+</html>

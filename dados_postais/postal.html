@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastro postal</title>
+    <link rel= "stylesheet" href="./postal.css">
+</head>
+<body>
+
+    <h1 style="color: #eaeaea;">Atividade de cadastro postal Maria Eduarda Moraes Vieira 1°-DSM</h1>
+
+    <div class="container">
+        <form>
+            <h2>Identificação</h2>
+            <div class="row">
+                <div class="col-8">
+                    <label>Nome completo<span class="required-star">*</span></label>
+                    <input type="text" name="nome"  placeholder="Maria Eduarda Moraes" required>
+                </div>
+                <div class="col-4">
+                    <label>CPF/CNPJ</label>
+                    <input type="number" name="cpf" placeholder="0123.345.678-90" required>
+                </div>
+            </div>
+
+<!-- endereço-->
+            <div class="row">
+                <div class="col-8">
+                    <label>Logradouro<span class="required-star">*</span></label>
+                    <input type="text" name="logradouro" placeholder="Rua, Avenida.." required>
+                </div>
+                <div class="col-2">
+                    <label>Número<span class="required-star">*</span></label>
+                    <input type="text"  name="numero" placeholder="1234" required>
+                </div>
+                <div class="col-2">
+                    <label>Complemento</label>
+                    <input type="text" name="complemento" >
+                </div>
+                <div class="col-4">
+                    <label>Bairro<span class="required-star">*</span></label>
+                    <input type="text" name="bairro" required>
+                </div>
+                <div class="col-4">
+                    <label>Cidade<span class="required-star">*</span></label>
+                    <input type="text" name="cidade" required>
+                </div>
+                <div class="col-2">
+                    <label>Estado <span class="required-star">*</span></label>
+                    <input type="text" name="estado" required>
+                </div>
+                <div class="col-2">
+                    <label>CEP</label>
+                    <input type="number" name="cep" >
+                </div>
+                <!---Contato-->
+                <h2>Contatos</h2>
+                <div class="row">
+                    <div class="col-6">
+                    <label>Telefone<span class="required-star">*</span></label>
+                    <input type="tel" required>
+                    </div>
+                    <div class="col-6">
+                        <label">Email<span class="required-star">*</span></label>
+                        <input type="email" required>
+                    </div>
+                </div>
+
+            <button type="submit">Salvar Cadastro</button>
+            
+
+            </div>
+        </form>
+    </div>
+
+
+</body>
+</html>

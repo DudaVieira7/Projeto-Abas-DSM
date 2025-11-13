@@ -1,0 +1,125 @@
+/* Reset básico */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background: #7236b2;
+  padding: 20px;
+  color: #b1aada;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+h1.dados{
+    color: #152c68;
+}
+
+.container {
+  max-width: 90%; 
+  margin: 0 auto;
+  background:#f7f6fa;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+}
+
+h1 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+h2 {
+  margin: 20px 0 10px;
+  font-size: 1.2rem;
+  color: #333;
+}
+
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px; 
+  margin-bottom: 20px;
+}
+
+
+.col-12 { flex: 0 0 100%; }
+.col-8  { flex: 0 0 calc(66.66% - 13.33px); } 
+.col-6  { flex: 0 0 calc(50% - 10px); } 
+.col-4  { flex: 0 0 calc(33.33% - 6.66px); }
+.col-2  { flex: 0 0 calc(16.66% - 3.33px); }
+
+
+
+/* Inputs */
+label {
+  display: block;
+  margin-bottom: 5px;
+  font-weight: bold;
+}
+
+input, select {
+  width: 100%;
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+}
+
+/* Botão */
+.btn-segundary, .btn-primary {
+  margin-top: 20px;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 1rem;
+}
+
+.btn-primary {
+  background: #796cd7;
+  color: #fff;
+}
+
+.btn-segundary {
+  background: #ccc;
+  color: #333;
+  margin-right: 10px;
+}
+
+.btn-primary:hover {
+  background: #5645ab;
+}
+.btn-segundary:hover {
+    background: #bbb;
+}
+
+
+
+@media (max-width: 768px) {
+  
+  [class^="col-"] {
+    flex: 0 0 100%;
+  }
+}
+
+.label-checkbox-top {
+    display: flex; 
+    flex-direction: column-reverse; 
+    align-items: flex-start; 
+    
+    
+    font-weight: normal; 
+}
+
+.label-checkbox-top input[type="checkbox"] {
+    
+    margin-top: 5px; 
+    width: auto; 
+}
+.required-star {
+    color: #ff0000; 
+    font-weight: bold; 
+    margin-left: 3px; 
+}

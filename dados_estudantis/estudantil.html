@@ -1,0 +1,292 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário Acadêmico</title>
+    <link rel="stylesheet" href="./estudantil.css">
+</head>
+<body>
+    
+    <h1 class="" style="text-align:center; color:rgba(170, 134, 203, 0.916);"> Atívidade Formulário Acadêmico-Maria Eduarda Moraes Vieira - 1°DSM </h1>
+
+    <form>
+
+        <!--dados pessoais do aluno-->
+<!--Linha 1-->
+    
+        <div class="container">
+            <h1 style="text-align: center; color: black;">Cadastro Estudantil</h1>
+            <h2>Identificação</h2>
+            <div class="row">
+            <div class="col-12">
+                <label>Nome Completo do Estudante<span class="required-star">*</span></label>
+                <input type="text" name="nome" id="nome" required placeholder="Isabela Dias Carvalho">
+            </div>
+
+ <!---Linha 2-->
+
+            <div class="col-12">
+                <label>Nome Social(opcional)</label>
+                <input type="text" id="nome-social" name="nome_social" placeholder="Isa Carvalho">
+            </div>
+
+<!--Linha 3-->
+        
+            <div class="col-6">
+                <label>Data de Nascimento<span class="required-star">*</span></label>
+                <input type="date" name="nascimento" required>
+            </div>
+            <div class="col-6">
+                <label>Gênero<span class="required-star">*</span></label>
+                <select name="genero" required>
+                    <option value=""> Selecione</option>
+                    <option>Feminino</option>
+                    <option>Masculino</option>
+                    <option>Outro</option>
+                </select>
+            </div>
+            </div>
+
+        <!--Documentação do Aluno-->
+        <h2>Documentos</h2>
+        <div class="row">
+            <div class="col-4">
+                <label>CPF<span class="required-star">*</span></label>
+                <input type="text" name="cpf" required placeholder="045.123.789-50">
+            </div>
+            <div class="col-4">
+                <label>RG<span class="required-star">*</span></label>
+                <input type="text" name="rg" required placeholder="10.203.405-X">
+            </div>
+            <div class="col-4">
+                <label>Orgão Emissor<span class="required-star">*</span></label>
+                <input type="text" name="orgao" required placeholder="SSP/SP">
+            </div>
+            <div class="col-6">
+                <label>Nacionalidade<span class="required-star">*</span></label>
+                <input type="text" name="nacionalidade" required placeholder="Brasileira">
+            </div>
+            <div class="col-6">
+                <label>Naturalidade<span class="required-star">*</span></label>
+                <input type="text" name="naturalidade" required placeholder="Curitiba-PR">
+            </div>
+            <div class="col-6">
+                <label>Título de Eleitor</label>
+                <input type="text" name="titulo" placeholder="2345 6789 0123">
+            </div>
+            <div class="col-6">
+                <label>Reservista</label>
+                <input type="text" name="reservista" placeholder="012345678">
+            </div>
+        </div>
+
+            <!--Filiação do aluno-->
+            <h2>Filiação</h2>
+            <div class="row">
+            <div class="col-12">
+                <label>Nome da Mãe<span class="required-star">*</span></label>
+                <input type="text" name="mae" required placeholder="Márcia Dias de Carvalho">
+            </div>
+            <div class="col-12">
+                <label>Nome do Pai </label>
+                <input type="text" name="pai" placeholder="Roberto Alves de Carvalho">
+            </div>
+        </div>
+
+            <!--Endereço do Aluno-->
+            <h2> Endereço</h2>
+            <div class="row">
+            <div class="col-8">
+                <label>Rua/Logradouro<span class="required-star">*</span></label>
+                <input type="text" name="logradouro" required placeholder="Rua das Acácias">
+            </div>
+            <div class="col-2">
+                <label>Número<span class="required-star">*</span></label>
+                <input type="text" name="numero" required placeholder="450">
+            </div>
+            <div class="col-2">
+                <label>complemento</label>
+                <input type="text" name="complemento" placeholder="Bloco C Ap 102">
+            </div>
+
+
+            <div class="col-4">
+                <label>Bairro<span class="required-star">*</span></label>
+                <input type="text" name="bairro" required placeholder="Jardim Botânico">
+            </div>
+            <div class="col-4">
+                <label>Cidade<span class="required-star">*</span></label>
+                <input type="text" name="cidade" required placeholder="Porto Alegre">
+            </div>
+            <div class="col-2">
+                <label>Estado<span class="required-star">*</span></label>
+                <select name="estado" required>
+                    <option value="">Selecione</option>
+                    <!--estados da região suldeste do Brasil-->
+                    <option>SP</option>
+                    <option>RJ</option>
+                    <option>MG</option>
+                    <option>ES-</option>
+                    <!--estados da região sul do Brasil-->
+                    <option>PR</option>
+                    <option>RS</option>
+                    <option>SC</option>
+                    <!--estados da região norte do Brasil-->
+                    <option>AC</option>
+                    <option>AM</option>
+                    <option>AP</option>
+                    <option>PA</option>
+                    <option>RO</option>
+                    <option>RR</option>
+                    <option>TO</option>
+                    <!--estados da região centro-oste do Brasil-->
+                    <option>DF</option>
+                    <option>GO</option>
+                    <option>MS</option>
+                    <option>MT</option>
+                    <!--estados da região nordeste do Brasil-->
+                    <option>AL</option>
+                    <option>BA</option>
+                    <option>CE</option>
+                    <option>MA</option>
+                    <option>PB</option>
+                    <option>PE</option>
+                    <option>PI</option>
+                    <option>RN</option>
+                    <option>SE</option>
+                </select>
+            </div>
+            <div class="col-2">
+                <label>CEP<span class="required-star">*</span></label>
+                <input type="text" name="cep" required placeholder="90000-000">
+            </div>
+            </div>
+
+
+            <!-- Contatos-->
+             <h2>Contatos</h2>
+             <div class="row">
+            <div class="col-6">
+                <label>Número Celular<span class="required-star">*</span></label>
+                <input type="tel" name="celular" required placeholder="(51) 98765-4321">
+            </div>
+            <div class="col-6">
+                <label>Telefone Fixo (opcional) </label>
+                <input type="tel" name="telefone" placeholder="(51) 3344-5566">
+            </div>
+
+            <div class="col-12">
+                <laabel>E-mail*</laabel>
+                <input type="email" name="email" required placeholder="isabela.carvalho@emailfictico.com">
+            </div>
+             </div>
+            <!--Situação Acadêmica-->
+            <h2>  Situacão Acadêmica</h2>
+            <div class="row">
+                <div class="col-6">
+                    <label>Grau de instituição atual</label>
+                    <select name="instituicao" required>
+                        <option value="">Selecione</option>
+                         <option>Ensino Fundamental</option>
+                         <option>Ensino Médio</opition>
+                         <option>Educação Superior</option>
+                        <option>Pós- graduação</option>
+                        <option>Mestrado</option>
+                        <option>Doutorado</option>
+                    </select>
+                </div>
+                <div class="col-6">
+                    <label>Nome da ultima Instituição de Ensino</label>
+                    <input type="text" name="escola" placeholder="Colégio Estadual Padre Eustáquio">
+                </div>
+                <div class="col-12">
+                    <label>Ano de Conclusão</label>
+                    <input type="number" name="ano-conclusao" placeholder="2019">
+                </div>
+
+            </div>
+
+<!--Curso desejado -->
+            <h2>Curso que deseja Cursar</h2>
+            <div class="row">
+                <div class="col-8">
+                <select name="curso" required>
+                    <option value="">Selecione um Curso</option>
+                    <option>Administração</option>
+                    <option>Ánalise e Desenvolvimento de Sistemas</option>
+                    <option>Biomedicina</option>
+                    <option>Ciência da Computação</option>
+                    <option>Direito</option>
+                    <option>Enfermagem</option>
+                    <option>Engenharia de Software</option>
+                    <option>Fisioterapia</option>
+                    <option>Gestão Hospitalar</option>
+                    <option>Medicina</option>
+                    <option>Matemática</option>
+                    <option>Nutrição</option>
+                    <option>Pedagogia</option>
+                    <option>Psicologia</option>
+                    <option>Recursos Humanos</option>
+                </select>
+                </div>
+                <div class="col-4">
+                    <label>Modalidade</label>
+                    <select name="turno">
+                        <option value="">Selecione o Turno que deseja estudar</option>
+                        <option>Matutino</option>
+                        <option>Vespertino</option>
+                        <option>Noturno</option>
+                    </select>
+                </div>
+
+
+                <div class="col-6">
+                    <label>Semestre</label>
+                    <select name="Semestre" required>
+                        <option value="">selecione um Semestre</option>
+                        <option>1°Semestre</option>
+                        <option>2°Semestre</option>
+                        <option>3°Semestre</option>
+                        <option>4°Semestre</option>
+                        <option>5°Semestre</option>
+                        <option>6°Semestre</option>
+                        <option>7°Semestre</option>
+                        </select>
+                        
+                </div>
+                <div class="col-6">
+                    <label>Ano de Ingresso</label>
+                    <input type="number" name="ano-ingresso" placeholder="Digite o ano que deseja iniciar os estudos."> 
+                </div>
+            </div>
+
+                <!--Adicionais-->
+                <h2>Informações</h2>
+                <div class="row">
+                    <div class="col-12">
+                        <label>Bolsa/Financiamento</label>
+                        <input type="text" name="bolsa">
+                    </div>
+                    <div class="col-12">
+                        <label>Necessidades especiais</label>
+                        <select name="especial" required>
+                            <option value="">selecione</option>
+                            <option>Sim, possuo necessidades especiais.</option>
+                            <option>Não, não possuo necessidades especiais.</option>
+                    </div>
+                    <div class="col-12">
+                        <label class="label-checkbox-top">
+                       <input type="checkbox" name="imagem"> Autorizo uso de Imagem
+                        </label>
+                        
+                </div>
+                 </div>
+            <section id="botao">
+                <button type="reset" class="btn-segundary">Limpar</button>
+                 <button type="submit" class="btn-primary"> Enviar Cadastro</button>
+            </section>
+        </div>
+    </form>
+</body>
+</html>
