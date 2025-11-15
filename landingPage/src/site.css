@@ -5,8 +5,14 @@
     box-sizing: border-box;
 }
 
-body{
+body,html{
     background-color: #f9f4ff;
+    overflow: auto;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+body{
+    color: #8D769E;
 }
 
 .btn-defaul {
@@ -20,9 +26,110 @@ body{
     font-size: 32px;
     cursor: pointer;
     border-radius: 15px;
+
 }
 
 .btn-defaul:hover{
 background-color: #9f72c7;
 
+}
+
+/* início da landingPage do meu projeto */
+
+header{
+    width:100vw;
+    padding: 28px 8%;
+    background-color: #B487DF;
+    color: white;
+    
+    
+    
+}
+
+
+#navbar{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    font-size: 2.5rem;
+    font-weight: 600;
+    justify-content: space-between;
+}
+
+#nav_logo{
+    font-size: 36px;
+    color: white;
+}
+#nav_list{
+    display: flex;
+    list-style: none;
+    gap: 50px;
+    background-color: #501883;
+    border-top: 50px;
+    padding: 28px 8%;
+    font-weight: 700;
+
+
+}
+
+.nav-item a{
+    text-decoration: none;
+    color: white;
+    font-weight: 600;
+    font-size: 1.5rem;
+}
+
+.nav-item a:hover{
+    background-color: #6f22b7;
+    border-radius: 25px;
+    transition: o.5s;
+}
+
+.header-menu{
+    background-color: #501883;
+
+}
+
+#foto-inicio{
+    width: 700px ;
+    height: 500px ;
+    display: flex;
+    float: right;
+    object-fit: cover;
+    margin-right: 35px;
+    position: relative;
+    margin-top: 23px;
+
+   
+}
+
+
+
+/* formatando texto da pagina inícial da LandingPage da GlobalSpeaker */
+
+
+
+
+
+.roxinho{
+    color: #683E87;
+    font-weight: 400;
+
+}
+
+
+
+/* parte do texto da abertura */
+
+.texto-inicio {
+    display: block;
+    justify-content: space-between;
+    padding: 30px;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+#slogan{
+    padding: 20px;
 }

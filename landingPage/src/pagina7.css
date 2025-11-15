@@ -1,0 +1,72 @@
+body{
+    background-color: #5B2888;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color:#BC8BE8;
+    
+    
+}
+
+#teste{
+    color: #E6CCFD;
+}
+h3{
+    color: rgba(255, 255, 255, 0.749);
+}
+
+.top-container{
+    max-width: 90%;
+    text-align: center;
+    margin-top: 40px;
+
+}
+
+#card2{
+    background-color: #BA6FFB;
+}
+#card3{
+    background-color: #AB7BD6;
+}
+
+#card1{
+    background-color: #AB7BD6;
+}
+
+.bottom-container{
+    display: block;
+    gap: 50px;
+    width: 90%;
+    margin: 40px auto;
+}
+.cards{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 15px ;
+    color: white;
+}
+
+#card1, #card2, #card3{
+    width: 30%;
+    height: 100%;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    padding: 25px 20px;
+    box-sizing: border-box;
+}
+
+.btn-option{
+
+    background: #BA6FFB;
+    color: white;
+    
+}
+button{
+    border-radius: 20px;
+    height: 7vh;
+    width: 20vw;
+    font-weight: 600;
+    color: #78539a;
+    font-size: 1.2rem;
+}
+

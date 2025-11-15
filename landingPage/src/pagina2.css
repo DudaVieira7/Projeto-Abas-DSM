@@ -1,0 +1,48 @@
+body{
+    background-color: #9966C9;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: #EEE2F9;
+
+
+}
+#infuencia{
+    color: rgb(255, 255, 255);
+    text-align: left;
+    margin-top: 20vh ;
+    padding: 30px;
+    max-width: 30%;
+    font-size: large;
+}
+
+
+
+.lista-direita{
+    float: right;
+    align-items: center;
+    justify-content: space-between;
+    display: flex;
+    gap: 30px;
+    margin-top: 0;
+    max-width: 70%;
+    margin-top: 25vh;
+    
+
+}
+.lista-direita ul li{
+    margin-bottom: 40px;
+    font-weight: 600;
+    font-size: 20px;
+}
+
+img{
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+}
+.container{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding: 40px;
+    height: 100vh;
+}

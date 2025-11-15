@@ -85,7 +85,6 @@ button:hover{
    object-fit: cover;
    position: relative;
    border-radius: 100%;
-   opacity: 90%;
    display: flex;
    margin-right: 15px;
    margin-top: 27px;
