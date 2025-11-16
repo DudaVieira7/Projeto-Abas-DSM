@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Página 8 contratos GlobalSpeaker</title>
+    <link rel="stylesheet" href="./src/pagina8.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+</head>
+<body>
+<div class="geral-container">
+
+    <div class="container-empresa">
+        <div id="verdinho">
+            <h2><i class="fa-solid fa-shield-halved"></i>compra 100% segura</h2>
+        </div>
+        <div id="assinatura">
+        <p><span class="azul"> está fazendo assinatura :</span></p>
+        <img src="./imagens/GlobalSpeaker-Photoroom.png" id="logo" alt="logo-empresa">
+        <h2>Organização- GlobalSpeaker- assinatura- Semestral R$ 379,02</h2>
+        <p><span class="line">Gratuito durante 7 dias</span> </p>
+        </div>
+
+        <div id="blue">
+            <p><span class="azul"> Após período de avaliação de 7 dias: R$ 397,00 / semestre</span></p>
+        </div>
+        <h3>Autor</h3>
+        <p>GLOBALSPEAKER</p>
+        <h3>E-mail</h3>
+        <p>suporte@globalSpeaker.com.br</p>
+        <h3>Telefone</h3>
+        <p><span class="azul">+551699988876</span></p>
+
+    </div>
+    <div class="container-contrato">
+        <h2><span class="verde">1</span> &nbsp;  Dados pesssoais</h2>
+
+
+        <!--Dados pessoais-->
+        <form>
+            <div class="row">
+                <div class="col-12">
+                    <Label>Nome completo</Label>
+                    <input type="text" name="nome" required placeholder="digite seu nome completo">
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-12">
+                    <label>Endereço de email</label>
+                    <input type="email" name="email" placeholder="E-mail que receberá o produto">
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-6">
+                    <label>Celular</label>
+                    <input type="tel" name="telefone" required placeholder="Número de telefone*">
+                </div>
+                <div class="col-6">
+                    <label>CPF ou CNPJ</label>
+                    <input type="number" name="cpf" placeholder="CPF ou CNPJ">
+                </div>
+            </div>
+
+            <!--Endereço-->
+            <div class="row">
+                <h2><span class="verde">2</span>  &nbsp; Endereço</h2>
+                <div class="col-4">
+                    <label>CEP</label>
+                    <input type="number" name="cep" placeholder="CEP">
+                </div>
+                <div class="col-4">
+                    <label>Logradouro</label>
+                    <input type="text" name="logradouro" placeholder="Digite o logradouro">
+                </div>
+                <div class="col-4">
+                    <label>Número</label>
+                    <input type="number" name="numero" placeholder="Número">
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-6">
+                    <label>Complemento</label>
+                    <input type="text" name="Complemento" placeholder="Complemento do endereço">
+                </div>
+                <div class="col-6">
+                    <label>Estado</label>
+                    <input type="text" name="estado" placeholder="Selecione o estado">
+                </div>
+            </div>
+
+
+        <!--Area do Pagamento-->
+
+            <section class="pagamento">
+                <h2><span class="verde">3</span> &nbsp; Pagamento</h2>
+                <button class="buy">
+                    <i class="fa-solid fa-credit-card"></i>&nbsp;Cartão de credito
+                </button>
+                
+                <div class="row">
+                    <div class="col-12">
+                        <label>Número</label>
+                        <input type="number" required placeholder="Somente números">
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-12">
+                        <label>Títular do Cartão</label>
+                        <input type="text" required placeholder="Como no cartão">
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-4">
+                        <label>Mês</label>
+                        <select id="mes" name="mes-validade">
+                            <option value="">Mês</option>
+                            <option>01</option>
+                            <option>02</option>
+                            <option>03</option>
+                            <option>04</option>
+                            <option>05</option>
+                            <option>06</option>
+                            <option>07</option>
+                            <option>08</option>
+                            <option>09</option>
+                            <option>10</option>
+                            <option>11</option>
+                            <option>12</option>
+                        </select>
+                        
+                    </div>
+                    <div class="col-4">
+                        <label for="ano-validade">Ano:</label>
+                        <select id="ano-validade" name="ano-validade">
+                            <option value="" disabled selected>Ano</option>
+                            <option value="2025">2025</option>
+                            <option value="2026">2026</option>
+                            <option value="2027">2027</option>
+                            <option value="2028">2028</option>
+                            <option value="2029">2029</option>
+                            <option value="2030">2030</option>
+                            <option value="2031">2031</option>
+                            <option value="2032">2032</option>
+                            <option value="2033">2033</option>
+                            <option value="2034">2034</option>
+                            <option value="2035">2035</option>
+                            <option value="2036">2036</option>
+                            </select>
+                    </div>
+                    <div class="col-4">
+                        <label>CVV</label>
+                        <input type="number">
+                    </div>
+                </div>
+                <label>
+                    <input type="checkbox" name="informacoes" value="Sim" checked style="margin-bottom: 20px;">Salvar dados para próximas compras
+                </label>
+
+                <button id="comprar">Comprar agora</button>
+
+              <i class="fa-solid fa-lock" style="margin-top: 20px; color:#00e4a0; "></i> informações seguras e criptorafadas
+
+
+            </section>
+
+
+        </form>
+    </div>
+
+
+</div>
+    <footer><br><br>Ao concluir a compra, você declara estar de acordo com os<span class="line"> <span class="verde"><a href="#">Termos de Uso</a></span></span> e <span class="line"><span class="verde"><a href="#">demais Políticas</a></span></span> da plataforma Greenn Pagamentos S.A., inscrita no CNPJ 10.987.123/0001-22.
+
+A responsabilidade pela oferta, entrega e qualidade do produto é de GLOBALSPEAKER, que realiza a venda por meio da nossa plataforma.<br><br><br><br>
+SegurinhoG © 2025 - Todos os direitos reservados
+</footer>
+    
+</body>
+</html>

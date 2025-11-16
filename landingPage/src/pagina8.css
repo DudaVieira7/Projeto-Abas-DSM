@@ -1,0 +1,180 @@
+body{
+    background-color: rgba(255, 255, 255, 0.844);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    
+    
+    
+}
+.container-contrato{
+    box-shadow: 0px 0px 15px 0px rgba(0, 0, 0, 0.43);
+    gap: 20px;
+    margin-top: 10px;
+    border-radius: 10px;
+    padding: 30px;
+    width: 900px;
+    margin: 0 30px;
+    
+    
+}
+
+.container-empresa{
+    box-shadow: 0px 0px 15px 0px rgba(0, 0, 0, 0.43);
+    border-radius: 10px;
+    padding-top: 0 30px;
+    width: 600px;
+    float: right;
+    text-align: center;
+    align-items: center;
+    margin-top: 0;
+    
+    
+}
+
+.geral-container{
+    display: flex;
+    align-items: center;
+    gap: 40px;
+    margin: 50px;
+    margin-bottom: 0;
+}
+#logo{
+    width: 200px;
+   height:200px;
+   object-fit: cover;
+   
+}
+#verdinho{
+    background-color: #00e4a0;;
+    color: white;
+    margin-top: 0;
+    width: 100%;
+    text-align: center;
+    border: none;
+    padding: 6px 0;
+    box-sizing: border-box;
+    border-radius: 6px;
+}
+
+.col-12 { width: 100%; }
+.col-8 { width: 66.66%; } 
+.col-6 { width: 50%; } 
+.col-4 { width: 33.33%; }
+.col-6, .col-4{
+    padding-right: 10px; /* Espaçamento entre colunas */
+    padding-left: 10px;
+    box-sizing: border-box;
+}
+.row {
+    display: flex; 
+    flex-wrap: wrap; 
+    width: 100%; 
+    margin-bottom: 20px; 
+}
+.col-12 input, .col-6 input, .col-4 input, .col-3 input {
+    width: 100%;
+    padding: 10px;
+    box-sizing: border-box;
+    border-radius: 5px;
+    border: 1.5px solid #ccc;
+}
+
+input:hover{
+    border: 1.5px solid #00e4a0;
+}
+
+#blue{
+    background-color: rgba(96, 157, 254, 0.5);
+    width: 90%;
+    align-items: center;
+    margin-left: 30px;
+    height: 50px;
+    justify-content: center;
+    margin-top: 20px;
+    color: rgb(16, 16, 172);
+    display: block;
+    border-radius: 5px;
+    text-align: center;
+}
+#assinatura{
+    
+    box-sizing: border-box;
+    text-align: center;
+    justify-content: center;
+    margin: 40px;
+}
+.azul{
+    color: rgb(28, 28, 157);
+    justify-content: center;
+    text-align: center;
+    margin-top: 30px;
+}
+
+.line{
+    text-decoration: underline;
+}
+.verde{
+    color: #00e4a0;
+}
+
+.buy{
+   background-color: white;
+   color: #00e4a0;
+   width: 200px;
+   height: 50px;
+   border-radius: 10px ;
+   border: 1.5px solid #00e4a0;
+   cursor: pointer;
+   font-weight: 600;
+
+}
+
+#comprar:hover{
+    transform: scale(0.90);/*colocar no comprar*/
+    transition: all 0.2s;
+}
+
+#comprar{
+    background-color: #00e4a0;
+    color: white;
+    border-radius: 10px;
+    height: 60px;
+    width: 100%;
+    border: transparent;
+    font-weight: 600;
+    font-size: 1rem;
+}
+footer {
+    
+    color: rgba(0, 0, 0, 0.6); 
+    
+    
+    width: 100%;
+    padding: 15px 15px; 
+    background-color: rgba(0, 0, 0, 0.081);
+    
+   
+    text-align: center;
+    margin-top: 300px;
+    
+}
+
+
+a{
+    color: #00e4a0;
+}
+
+@media screen  and (max-width:540px){
+    
+    footer{
+        width: 100vw;
+        padding: 30px;
+    
+    }
+    body{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+
+    
+}
