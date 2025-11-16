@@ -4,6 +4,7 @@ body{
     margin: 0;
     padding: 0;
     color: #8870afc2;
+    overflow: hidden;
     
 }
 #header-container{

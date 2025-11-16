@@ -133,3 +133,66 @@ header{
 #slogan{
     padding: 20px;
 }
+footer{
+    background-color: rgb(49, 18, 70);
+    color: #fff;
+    padding: 40px 20px;
+    font-family: sans-serif;
+    margin-top: 20px;
+    margin: 4px s;
+}
+
+.footer-container {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.footer-column {
+    flex: 1; 
+    padding: 20px;
+    min-width: 200px; 
+    margin-bottom: 20px;
+}
+
+.footer-column h3 {
+    border-bottom: 2px solid #a489da; 
+    padding-bottom: 10px;
+    margin-bottom: 15px;
+    font-size: 1.2em;
+}
+
+.footer-column ul {
+    list-style: none;
+    padding: 0;
+}
+
+.footer-column a {
+    color: #fff;
+    text-decoration: none;
+    line-height: 1.6;
+    transition: color 0.3s ease;
+}
+
+.footer-column a:hover {
+    color: #a489da; /
+}
+
+.footer-bottom {
+    text-align: center;
+    margin-top: 20px;
+    padding-top: 20px;
+    border-top: 1px solid #a489da;
+    font-size: 0.9em;
+}
+
+
+
+
+    
+    
+
+
+
